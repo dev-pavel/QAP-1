@@ -15,7 +15,7 @@ class TransactionTest {
 
     @Test
     void testTransactionHistory() {
-        BankAccount account = new BankAccount("12345", "Checking");
+        BankAccount account = new BankAccount("12345", "Checking", 0.0);
         account.deposit(100.0);
         account.withdraw(50.0);
 
