@@ -8,7 +8,7 @@ class BankTest {
     @Test
     void testAddAccount() {
         Bank bank = new Bank();
-        BankAccount account = new BankAccount("12345", "Savings");
+        BankAccount account = new BankAccount("12345", "Savings", 0.0);
         bank.addAccount(account);
         assertEquals(1, bank.getAccounts().size());
     }
@@ -16,8 +16,8 @@ class BankTest {
     @Test
     void testTransferFunds() {
         Bank bank = new Bank();
-        BankAccount account1 = new BankAccount("12345", "Checking");
-        BankAccount account2 = new BankAccount("67890", "Savings");
+        BankAccount account1 = new BankAccount("12345", "Checking", 0.0);
+        BankAccount account2 = new BankAccount("67890", "Savings", 0.0);
 
         account1.deposit(200.0);
         bank.addAccount(account1);
@@ -32,8 +32,8 @@ class BankTest {
     @Test
     void testTransferInsufficientFunds() {
         Bank bank = new Bank();
-        BankAccount account1 = new BankAccount("12345", "Checking");
-        BankAccount account2 = new BankAccount("67890", "Savings");
+        BankAccount account1 = new BankAccount("12345", "Checking", 0.0);
+        BankAccount account2 = new BankAccount("67890", "Savings", 0.0);
 
         account1.deposit(50.0);
         bank.addAccount(account1);
