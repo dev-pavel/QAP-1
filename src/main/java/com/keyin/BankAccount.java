@@ -9,10 +9,10 @@ public class BankAccount {
     private final String accountType;
     private final List<Transaction> transactions;
 
-    public BankAccount(String accountNumber, String accountType) {
+    public BankAccount(String accountNumber, String accountType, double initialBalance) {
         this.accountNumber = accountNumber;
         this.accountType = accountType;
-        this.balance = 0.0;
+        this.balance = initialBalance;
         this.transactions = new ArrayList<>();
     }
 

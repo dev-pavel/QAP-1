@@ -52,7 +52,7 @@ public class TerminalInterface {
         scanner.nextLine();
 
 
-        BankAccount newAccount = new BankAccount(accountNumber, accountType);
+        BankAccount newAccount = new BankAccount(accountNumber, accountType, initialBalance);
         bank.addAccount(newAccount);
         System.out.println("Account added successfully: " + newAccount);
     }

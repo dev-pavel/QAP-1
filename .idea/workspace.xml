@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc3446a-6714-44f3-8ec5-7141d45d8b04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/keyin/TerminalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/TerminalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/TerminalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/keyin/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/keyin/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2n8FOQkozHDCJBigQGAbI2B9L1r" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,7 +39,7 @@
   "keyToString": {
     "Application.TerminalInterface.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/terminal-interface",
+    "git-widget-placeholder": "feature/bank-account",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

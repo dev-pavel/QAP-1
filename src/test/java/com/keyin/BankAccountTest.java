@@ -7,14 +7,14 @@ class BankAccountTest {
 
     @Test
     void testDeposit() {
-        BankAccount account = new BankAccount("12345", "Checking");
+        BankAccount account = new BankAccount("12345", "Checking", 0.0);
         account.deposit(100.0);
         assertEquals(100.0, account.getBalance());
     }
 
     @Test
     void testWithdraw() {
-        BankAccount account = new BankAccount("12345", "Savings");
+        BankAccount account = new BankAccount("12345", "Savings", 0.0);
         account.deposit(200.0);
         boolean success = account.withdraw(100.0);
         assertTrue(success);
@@ -23,7 +23,7 @@ class BankAccountTest {
 
     @Test
     void testInsufficientFunds() {
-        BankAccount account = new BankAccount("12345", "Checking");
+        BankAccount account = new BankAccount("12345", "Checking", 0.0);
         boolean success = account.withdraw(100.0);
         assertFalse(success);
     }
