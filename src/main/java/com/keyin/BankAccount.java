@@ -51,4 +51,9 @@ public class BankAccount {
     public List<Transaction> getTransactions() {
         return transactions;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount [accountNumber=" + accountNumber + ", balance=" + balance + ", accountType=" + accountType + "]";
+    }
 }
